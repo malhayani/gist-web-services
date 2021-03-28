@@ -93,7 +93,7 @@ query getGistsById {
 
 GetFavoritedGists:
 
-```
+```graphql
 query getFavoritedGists {
   getFavoritedGists {
     id
@@ -119,7 +119,7 @@ query getFavoritedGists {
 
 FavoriteGist:
 
-```
+```graphql
 mutation favoriteGist {
   favoriteGist(id:<GIST_ID>) {
     message
@@ -130,7 +130,7 @@ mutation favoriteGist {
 
 UnfavoriteGist:
 
-```
+```graphql
 mutation unfavoriteGist {
   unfavoriteGist(id:<GIST_ID>) {
     message
